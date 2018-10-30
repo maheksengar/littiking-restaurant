@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta  name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Delius" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<title>littiking</title>
+</head>
+<body data-spy="scroll" data-target="#main-navbar" data-offset="0">
+
+
+<nav id="main-navbar" class="navbar navbar-expand-lg navbar-light d-none" data-aos="slide-down" data-aos-offset="70"
+			    data-aos-delay="50"
+			    data-aos-duration="120"
+			    data-aos-easing="ease-in-out-quart"
+			    data-aos-mirror="true"
+			    data-aos-once="false"
+			    data-aos-anchor=".header"
+			    data-aos-anchor-placement="top-top">
+  <a class="navbar-brand" href="#home" style="font-size: 2rem;">LittiKing</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#menu">Menu</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign Up</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="header mb-0">
+	<div class="overlay d-flex justify-content-center align-items-center">
+		<div class="h-75 mt-auto d-flex flex-column justify-content-center align-items-center" style="">
+			<h1 style=""  id="header-title">LittiKing</h1>
+			<div class="d-flex flex-column justify-content-center align-items-center p-3 mt-3 h-75" style="">
+				<button class="btn" id="order-btn">Order Now</button>
+				<a href="#about" class="fas fa-chevron-circle-down fa-2x mt-auto mb-5 anchor-scroll" data-class-to="#about" data-on-scroll="blur" style="color: white;text-decoration: none;"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="section mb-0 mt-0" id="about" style="">
+	<h1 class="heading text-center">About LittiKing</h1>
+	<h4 class="subheading text-center">Know us</h4>
+	<p class="p-4  text-center">
+littiKing, an Indian restaurant in the _____ region, offers fresh and honest cuisine featuring local products and Indian flavors. A young, passionate and creative team always working with pleasure with fresh food and a multitude of quality spices to concoct simple dishes, showing an aromatic depth and a concern for a job well done. The minimalist and eclectic decor composed of several recycled, raw and reworked elements invites usability and familiarity. A project created from scratch to share a passion for cooking, the pleasure of the table and the importance of taking this time to stop around a meal with loved ones.
+	</p>
+</div>
+
+<div class="section mb-0 mt-0" id="restaurant">	
+</div>
+
+<div class="section mb-0 mt-5" id="menu">
+	<h1 class="heading text-center">Menu</h1>
+	<h4 class="subheading text-center">Come! Grab a bite</h4>
+	<div class="d-flex justify-content-between align-items-start" id="menu-flex">
+
+		<div class="accordion m-5" id="accordion" style="">
+
+		  <div class="card" >
+		    <div class="card-header" id="headingOne">
+		      	<div class="collapsible1 d-flex align-items-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		      		<h5>Menu Category</h5>
+		      		<i class="fas fa-chevron-circle-down fa-2x ml-auto"></i>
+		      	</div>
+		    </div>
+
+		    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+		      <div class="card-body">
+		      	<div class="list-group" style="list-style-type: none;">
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      	</div>
+		        
+		      </div>
+		    </div>
+		  </div>
+
+
+		  <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <div class="collapsible1 d-flex align-items-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+		      		<h5>Menu Category</h5>
+		      		<i class="fas fa-chevron-circle-down fa-2x ml-auto"></i>
+		      </div>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+		      <div class="card-body">
+		        <div class="list-group" style="list-style-type: none;">
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <div class="collapsible1 d-flex align-items-center" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+		      		<h5>Menu Category</h5>
+		      		<i class="fas fa-chevron-circle-down fa-2x ml-auto"></i>
+		      </div>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		      <div class="card-body">
+		        <div class="list-group" style="list-style-type: none;">
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="card" >
+		    <div class="card-header" id="headingFour">
+		      	<div class="collapsible1 d-flex align-items-center" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+		      		<h5>Menu Category</h5>
+		      		<i class="fas fa-chevron-circle-down fa-2x ml-auto"></i>
+		      	</div>
+		    </div>
+
+		    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+		      <div class="card-body">
+		      	<div class="list-group" style="list-style-type: none;">
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      	</div>
+		        
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="card" >
+		    <div class="card-header" id="headingFive">
+		      	<div class="collapsible1 d-flex align-items-center" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+		      		<h5>Menu Category</h5>
+		      		<i class="fas fa-chevron-circle-down fa-2x ml-auto"></i>
+		      	</div>
+		    </div>
+
+		    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+		      <div class="card-body">
+		      	<div class="list-group" style="list-style-type: none;">
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      		<div class="d-flex align-items-center my-2">
+		      			<li>Menu Item1</li>
+		      			<span class="ml-auto">Price</span>
+		      		</div>
+		      	</div>
+		        
+		      </div>
+		    </div>
+		  </div>
+
+		</div>
+
+		<div id="menu-carousel" class="m-5">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"  style="">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100 h-100" src="carousel-img-1.jpeg" alt="First slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" src="carousel-img-2.jpeg" alt="Second slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" src="carousel-img-3.jpeg" alt="Third slide">
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100 h-100" src="carousel-img-4.jpeg" alt="Fourth slide">
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+</div>
+</div>
+	
+<div class="section mb-0 mt-5 mb-0" id="only-bg">
+</div>
+
+<div class="section mb-0 mt-0 mb-0" id="testimonials">
+	<h1 class="heading text-center">Testimonials</h1>
+	<h4 class="subheading text-center">What our Customers Say</h4>
+
+	<div class="container mt-5 pt-3">
+	<div class="row">
+		<div class="col-sm-12">
+			<!-- <h2>What <b>our customers</b> are saying</h2> -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5" >
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements.. 1</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5">
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements.. 2</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+					<div class="item carousel-item">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5">
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements..</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5">
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements..</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+					<div class="item carousel-item">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5">
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements..</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="media d-flex flex-column align-items-center justify-content-center mb-5">
+									<div class="media-left d-flex mr-3">
+											<img src="sample-speaker.jpeg" class="testimonial-img rounded-circle" alt="">
+									</div>
+									<div class="media-body mt-4">
+										<div class="testimonial">
+											<p class="text-center">Testimonial statements..</p>
+											<p class="overview text-right text-muted"><b>Name</b>, Occupation/work</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>			
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+</div>
+
+<div class="section mb-0 mt-0" id="contact">
+	<h1 class="heading text-center">Contact Us</h1>
+	<h4 class="subheading text-center">Get In touch</h4>
+	<div class="d-flex justify-content-center align-items-center">
+		<div class="d-flex flex-column justify-content-around align-items-start mr-5">
+			<h4><i class="fas fa-map-marker-alt m-4"></i>Address</h4>
+			<h4><i class="fas fa-phone m-4"></i>123456789</h4>
+			<h4><i class="fas fa-envelope m-4"></i>abc@example.com</h4>
+		</div>
+
+		<div class="social-media ml-5" style="">
+			<p class="text-center" style="font-size: 1.1rem; letter-spacing: 2px;">Connect with us:</p>
+				<div class="d-flex flex-row justify-content-around align-items-center" id="social-media">
+					<div class="facebook icon">
+						<a href="https://www.facebook.com/mahek.sengar3"><i class="fab fa-facebook fa-2x" style="color:#fff"></i></a>
+					</div>
+					<div class="instagram icon">
+						<a href="https://www.instagram.com/mahek_sengar/"><i class="fab fa-instagram fa-2x" style="color:#fff"></i></a>
+					</div>
+					<div class="twitter icon">
+						<a href=""> <i class="fab fa-twitter fa-2x" style="color:#fff"></i></a>
+					</div>
+				</div>
+				<!-- <p class="text-center" style="margin-top: 5vh; word-wrap: break-word;">Or drop a mail at:<br><a href="mailto: maheksengar@gmail.com" style="; font-size:0.8em; text-decoration: none;"><i class="fas fa-envelope"></i> maheksengar@gmail.com</a></p> -->
+		</div>
+	</div>
+	<!-- <div class="d-flex flex-column justify-content-center align-items-center">
+		<p>Copyright 2018. All rights Reserved.</p>
+		<a href="#home" class="text-center d-block my-2"><i class="fas fa-angle-double-up fa-2x" style="color:#fff"></i></a>
+		<p class="text-center my-2">Made with <i class="fas fa-heart" style=""></i> in India</p>	
+	</div> -->
+
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	
+
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="index.js"></script>
+
+
+
+</body>
+</html>
